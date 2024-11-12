@@ -1,3 +1,5 @@
+![Ollama Image](https://ollama.com/public/blog/embedding-models.png)
+
 # Project Setup
 
 ### Prerequisites
