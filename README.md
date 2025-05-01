@@ -4,7 +4,7 @@
 
 ### Prerequisites
 Ollama \
-Python 3.8 and above
+Python 3.8 and above \
 Pip
 
 ### Step 1: Clone the Repository
