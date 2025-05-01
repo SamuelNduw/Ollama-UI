@@ -1,5 +1,17 @@
 ![Ollama Image](https://ollama.com/public/blog/embedding-models.png)
 
+# Ollama-UI
+This project is an AI chat application that utilizes streamlit for the UI and Ollama for running and interacting with the models.
+- Message memory, allowing the model to remember and have context of the chat.
+- Document Parsing, the model can now take documents such as PDFs and users can ask questions in the context of the document inputted.
+
+# Ollama Setup
+Ollama needs to be installed and you need to have downloaded a model before setting up the project. 
+- Ollama executable can be found here [Ollama](https://ollama.com/)
+- Ollama [models](https://ollama.com/search) \
+_**I recommend using any model less than 3B parameters, For testing and low compute power machines/devices.
+These will run at a decent speed.**_
+
 # Project Setup
 
 ### Prerequisites
@@ -38,3 +50,5 @@ pip install -r requirements.txt
 ```
 streamlit run main.py
 ```
+
+### The application should provide a link and run in the browser.
